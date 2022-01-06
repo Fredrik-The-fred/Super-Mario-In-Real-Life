@@ -1,0 +1,58 @@
+@font-face {
+  font-family: customFont;
+  src: url("../fonts/Inconsolata-Medium.ttf");
+}
+body{
+  background-color: #424C4C;
+  font-family: customFont;
+  color: #F6F8FF;
+  padding: 32px;
+}
+h1{
+  color: #23CE6B;
+}
+img{
+  border-radius: 8px;
+}
+.textfoot{
+  font-family: customFont;
+  padding: 16px 20px;
+  color: #F6F8FF;
+}
+a{
+  color: #23CE6B;
+  font-family: customFont;
+}
+.filephoto{
+  width: 512px;
+}
+button{
+  background-color: #23CE6B;
+  font-family: customFont;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 0;
+  padding: 8px;
+}
+a:hover{
+  color: #2bff83;
+}
+button:hover{
+  background-color: #2bff83;
+}
+footer{
+  font-family: customFont;
+  background-color: #272D2D;
+  position: absolute;
+  left: 0;
+  height: 100px;
+  width: 100%;
+}
+header{
+  padding: 60px;
+  font-family: customFont;
+  text-align: center;
+  background: #272D2D;
+  color: white;
+  font-size: 30px;
+}
