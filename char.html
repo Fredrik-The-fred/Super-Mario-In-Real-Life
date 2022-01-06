@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>2</title>
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body>
+    <header>
+      <h1>SUPER MARIO IN REAL LIFE</h1>
+      <p>PROJECT</p>
+    </header>
+    <h1>Part 2 - The Characters</h1>
+    <p>After seeing how well the AI handled the scenarios. We decided to take it a step further. And we managed to program the AI to also transform the characters of the game into real characters. Although it didn't give good results at first, we got a very acceptable approximation of the characters' appearances.</p>
+    <p>See the following pictures.</p>
+
+    <h2>1. Mario Bros</h2>
+    <img src="img/mariogood.png" id="i1" alt="0101" class="filephoto"></img><br>
+    <button type="button" name="button" onclick="showimg('i1','img/npc0101a.png')">SEE CHANGES</button>
+
+    <h2>2. Toad</h2>
+    <img src="img/toadgood.png" id="i2" alt="00e1" class="filephoto"></img><br>
+    <button type="button" name="button" onclick="showimg('i2','img/npc00e1.png')">SEE CHANGES</button>
+
+    <h2>3. ERROR: FILE NOT FOUND</h2>
+    <img src="img/luigigood.png" id="i3" alt="0ee2" class="filephoto"></img><br>
+
+    <h2>4. Bowser</h2>
+    <img src="img/bowsergood.png" id="i4" alt="04a3" class="filephoto"></img><br>
+    <button type="button" name="button" onclick="showimg('i4','img/npc04a3.png')">SEE CHANGES</button><br><br><br><br>
+
+    <!-- HELP ME -->
+
+    <a href="javascript:history.back()" style="font-size:32px;"><< GO BACK</a><br>
+    <a href="extra.html" style="font-size:32px;">SEE MORE RESULTS >></a><br><br><br><br>
+
+    <footer>
+      <address class="textfoot">
+        Super Mario Bros created by Nintendo <br>
+        SMIRL created by Fred the fred <a href="https://twitter.com/fredthefred2">My Twitter</a><br>
+      </address>
+    </footer>
+
+    <script type="text/javascript">
+      function showimg(iid,newimg) {
+        document.getElementById(iid).src = newimg;
+      }
+    </script>
+  </body>
+</html>
